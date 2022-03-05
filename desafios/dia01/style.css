@@ -2,71 +2,88 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    /* coloca os itens no centro da tela */
+    height: 100vh; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
-ul{
+
+ul{ /* ul fica em posição inline, mas sobrepostas  */
     position: relative;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 ul li{
-    position: relative;
+    position: relative; 
     list-style-type: none;
     width: 60px;
     height: 60px;
-    margin: 0 30px;
-    transform: rotate(-30deg) skew(25deg); 
+    margin: 0 30px; /* coloca uma margem entre os itens */
+    transform: rotate(-30deg) skew(25deg); /* rotaciona e achata os icones, respectivamente */
 }
+
 ul li span{
-    position: absolute;
+    position: absolute; /* coloca os spans abaixo um do outro */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #000;
     transition: 0.5s;
-    display: flex !important;
+    display: flex !important; /* coloca o icone no centro do quadrado */
     align-items: center;
     justify-content: center;
     color: #fff;
     font-size: 30px !important;
+    /* !important: indica que a configuração não pode ser ignorada */
 }
+
+/* configurações dos spans, com a posição e opacidade de cada um, por isso o uso da nth-child() */
+/* colocando a pseudoclasse hover faz com que essas configurações apareçam apenas quando colocamos o mouse sobre o item*/
 ul li:hover span:nth-child(5){
     transform: translate(40px, -40px);
     opacity: 1;
 }
+
 ul li:hover span:nth-child(4){
     transform: translate(30px, -30px);
     opacity: .8;
 }
+
 ul li:hover span:nth-child(3){
     transform: translate(20px, -20px);
     opacity: .6;
 }
+
 ul li:hover span:nth-child(2){
     transform: translate(10px, -10px);
     opacity: .4;
 }
+
 ul li:hover span:nth-child(1){
     transform: translate(0,0);
     opacity: .2;
 }
+/* cores */
 ul li:nth-child(1) span{
     background: #3A559F;
 }
+
 ul li:nth-child(2) span{
     background: #0DBF43;
 }
+
 ul li:nth-child(3) span{
     background: #0077B7;
 }
+
 ul li:nth-child(4) span{
     background: #D62976;
 }
+
 ul li:nth-child(5) span{
     background: #DC4E41;
 }

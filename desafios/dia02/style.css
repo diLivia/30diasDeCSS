@@ -12,6 +12,7 @@ body{
     background: #000;
 }
 
+/* cria o circulo inicial do loading e o principio da animação */
 .loader{
     position: relative;
     width: 150px;
@@ -21,6 +22,7 @@ body{
     animation: animate 1.8s linear infinite;
 }
 
+/* animação do loading */
 @keyframes animate{
     0%{
         transform: rotate(0deg);
@@ -32,6 +34,7 @@ body{
     }
 }
 
+/* cria a ilusão de um loading por colocar um circulo menor dentro o maior, deixando uma borda */
 .loader:before{
     content: '';
     position: absolute;
@@ -43,6 +46,8 @@ body{
     border-radius: 50%;
     z-index: 1000;
 }
+
+/* cria o efeito brilhante e esfumaçado */
 .loader:after{
     content: '';
     position: absolute;

@@ -4,6 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* alinha o botão no centro da tela */
 body{
     background-color: #60435F;
     height: 100vh;
@@ -21,11 +22,12 @@ body{
     color: #A8DCD9;
     font-weight: 700;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer; 
     font-size: 1em;
     position: relative;
 }
 
+/* cria dois retângulos que irão se tornar os espaços da borda do botão */
 .btn::before, .btn::after
 {
     content: "";
@@ -36,20 +38,27 @@ body{
     transform: skewX(50deg);
     transition: .4s linear;
 }
+
+/* põe o retângulo na posição superior esquerda da borda do botão */
 .btn::before
 {
     top: -4px;
     left: 10%;
 }
+
+/* põe o retângulo na posição posterior direita da borda do botão */
 .btn::after
 {
     bottom: -4px;
     right: 10%;
 }
+
+/* respectivamente cria o efeito hover dos espaços retangulares se movendo de um lado para o outro */
 .btn:hover::before
 {
     left: 80%;
 }
+
 .btn:hover::after
 {
     right: 80%;

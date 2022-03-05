@@ -4,6 +4,7 @@ body{
     background-color: #140A0B;
 }
 
+/* coloca o pulsar no centro */
 .center{
     position: absolute;
     top: 50%;
@@ -11,6 +12,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
+/* cria o circulo inicial, alinha o texto e dá o estilo */
 .pulse{
     width: 100px;
     height: 100px;
@@ -25,6 +27,7 @@ body{
     animation: animate 3s linear infinite;
 }
 
+/* animação de pulsação */
 @keyframes animate{
     0%{
         box-shadow: 0 0 0 0 rgba(214, 49, 66,.7), 0 0 0 0 rgba(214, 49, 66,.7);

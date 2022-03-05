@@ -4,6 +4,7 @@ body
     padding: 0;
 }
 
+/* div do lado direito */
 section
 {
     width: 100%;
@@ -15,6 +16,7 @@ section
     position: absolute;
 }
 
+/* div do lado esquerdo */
 .wrapper 
 {
     height: 100%;
@@ -28,6 +30,7 @@ section
     border-right: 2px solid #7514A6;
 }
 
+/* coloca o texto no centro, principio da animação */
 .sliding 
 {
     position: absolute;
@@ -40,6 +43,7 @@ section
     animation: animate 20s linear infinite;
 }
 
+/* animação do texto deslizando da direita para a esquerda */
 @keyframes animate
 {
     0%
