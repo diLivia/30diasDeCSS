@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h2{
+    font-size: 6em;
+    color: #333;
+}
+
+h2 span{
+    animation: animate 1s linear infinite;
+}
+
+/* delay na animação de cada letra, dá o efeito de cascata, aparentemente o tempo maximo é de 1s */
+h2 span:nth-child(1){
+    animation-delay: 0s;
+}
+
+h2 span:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+h2 span:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+h2 span:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+h2 span:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+h2 span:nth-child(6){
+    animation-delay: 0.5s;
+}
+
+h2 span:nth-child(7){
+    animation-delay: 0.6s;
+}
+
+h2 span:nth-child(8){
+    animation-delay: 0.7s;
+}
+
+h2 span:nth-child(9){
+    animation-delay: 0.8s;
+}
+
+h2 span:nth-child(10){
+    animation-delay: 0.9s;
+}
+
+h2 span:nth-child(11){
+    animation-delay: 1s;
+}
+
+/* cria a animação do texto piscando e a sombra */
+@keyframes animate{
+    0%, 80%{
+        color: #333;
+        text-shadow: none;
+    }
+    100%{
+        color: #F49CBB;
+        text-shadow: 0 0 10px #F49CBB,
+                     0 0 20px #F49CBB,
+                     0 0 40px #F49CBB,
+                     0 0 80px #F49CBB,
+                     0 0 120px #F49CBB,
+                     0 0 160px #F49CBB;
+    }
+}
