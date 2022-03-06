@@ -11,6 +11,7 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
   - [Dia 03 - Texto que muda de cor quando entra em outra div](#id03)
   - [Dia 04 - Botão com efeito hover](#id04)
   - [Dia 05 - Circulo pulsando](#id05)
+  - [Dia 06 - Texto brilhante com efeito](#id06)
   
   ## Dia 01 - Ícone de redes sociais em camadas <a name='id01'><a>
 ![Dia 01](https://media.discordapp.net/attachments/941722116074659863/949432513070256148/gif.gif?width=1024&height=338) <BR>
@@ -33,6 +34,11 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
 [Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6905637176672174080-5iO6) 
   
   ## Dia 05 - Circulo pulsando <a name='id05'><a>
-![Dia 04](https://media.discordapp.net/attachments/941722116074659863/949681281044709376/pulsar.gif?width=1024&height=300) <BR>
-[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia04) <BR>
+![Dia 05](https://media.discordapp.net/attachments/941722116074659863/949681281044709376/pulsar.gif?width=1024&height=300) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia05) <BR>
 [Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6905887654215249920-bYI1) 
+  
+  ## Dia 06 - Texto brilhante com efeito <a name='id06'><a>
+![Dia 06](https://media.discordapp.net/attachments/941722116074659863/950059606678306938/texto_brilhante.gif?width=1024&height=277) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia06) <BR>
+[Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6906268294954008577-KOwI) 
