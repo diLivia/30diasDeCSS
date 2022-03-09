@@ -14,6 +14,7 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
   - [Dia 06 - Texto brilhante com efeito](#id06)
   - [Dia 07 - Preloader colorido](#id07)
   - [Dia 08 - Menu com efeito hover](#id08)
+  - [Dia 09 - Carinhas brilhantes](#id09)
   
   ## Dia 01 - Ícone de redes sociais em camadas <a name='id01'><a>
 ![Dia 01](https://media.discordapp.net/attachments/941722116074659863/949432513070256148/gif.gif?width=1024&height=338) <BR>
@@ -54,3 +55,8 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
 ![Dia 08](https://media.discordapp.net/attachments/941722116074659863/950882677723123792/menu-efeito-hover.gif?width=1024&height=340) <BR>
 [Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia08) <BR>
 [Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6907089267030679552-BDSK) 
+  
+  ## Dia 09 - Carinhas brilhantes <a name='id09'><a>
+![Dia 09](https://media.discordapp.net/attachments/941722116074659863/951176738644303943/carinhas-felizes.gif?width=889&height=434) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia09) <BR>
+[Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6907385452274589696-vIWJ) 
