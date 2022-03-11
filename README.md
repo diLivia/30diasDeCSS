@@ -16,6 +16,7 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
   - [Dia 08 - Menu com efeito hover](#id08)
   - [Dia 09 - Carinhas brilhantes](#id09)
   - [Dia 10 - Carinhas brilhantes](#id10)
+  - [Dia 11 - Palavra que muda](#id11)
   
   ## Dia 01 - Ícone de redes sociais em camadas <a name='id01'><a>
 ![Dia 01](https://media.discordapp.net/attachments/941722116074659863/949432513070256148/gif.gif?width=1024&height=338) <BR>
@@ -66,3 +67,8 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
 ![Dia 10](https://media.discordapp.net/attachments/941722116074659863/951490971370135632/sombra-elegante.gif?width=1024&height=372) <BR>
 [Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia10) <BR>
 [Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6907698773527822336-Ncv-) 
+  
+  ## Dia 11 - Palavra que muda <a name='id11'><a>
+![Dia 11](https://media.discordapp.net/attachments/941722116074659863/951852213268009030/palavra-muda.gif?width=1024&height=282) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia11) <BR>
+[Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6908059912547512321-Zdcg) 
