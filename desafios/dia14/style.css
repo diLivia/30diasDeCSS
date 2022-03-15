@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: #010615;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060C21;
+    margin: 40px;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: white;
+    z-index: -1;
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: white;
+    z-index: -1;
+    filter: blur(40px);
+}
+
+.box:nth-child(1)::before, .box:nth-child(1)::after{
+    background: linear-gradient(235deg, #3159F7, #010615, #0AF24F);
+}
+
+.box:nth-child(2)::before, .box:nth-child(2)::after{
+    background: linear-gradient(235deg, #F23FBC, #010615, #FAD43E);
+}
+
+.box:nth-child(3)::before, .box:nth-child(3)::after{
+    background: linear-gradient(235deg, #790296, #010615, #2563CF );
+}
+
+.box .glass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background-color: rgb(255, 255, 255, .1);
+    pointer-events: none;
+}
+
+.box .content{
+    padding: 20px;
+    color: white;
+}
