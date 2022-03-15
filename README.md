@@ -19,6 +19,8 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
   - [Dia 11 - Palavra que muda](#id11)
   - [Dia 12 - Caneca com água](#id12)
   - [Dia 13 - Indicação de rolagem para baixo](#id13)
+  - [Dia 14 - Bordas brilhantes](#id14)
+  - [Dia 15 - Gota de água](#id15)
   
   ## Dia 01 - Ícone de redes sociais em camadas <a name='id01'><a>
 ![Dia 01](https://media.discordapp.net/attachments/941722116074659863/949432513070256148/gif.gif?width=1024&height=338) <BR>
@@ -84,3 +86,13 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
 ![Dia 13](https://media.discordapp.net/attachments/941722116074659863/952703054954790962/scrolldown.gif?width=886&height=434) <BR>
 [Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia13) <BR>
 [Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6908912095140966400-adCx) 
+  
+  ## Dia 14 - Bordas brilhantes <a name='id14'><a>
+![Dia 13](https://media.discordapp.net/attachments/941722116074659863/953424851459252345/bordas-brilhantes.jpg?width=895&height=434) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia14) <BR>
+[Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6909633182929723392-bOhC) 
+  
+  ## Dia 15 - Gota de água <a name='id15'><a>
+![Dia 13](https://media.discordapp.net/attachments/941722116074659863/953424851203403806/gota-de-agua.jpg?width=1024&height=324) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia15) <BR>
+[Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6909633182929723392-bOhC) 
