@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #582630;
+}
+
+.line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-bottom: 4px solid #FBF7F4;
+    animation: animate 2s linear infinite;
+}
+
+.dot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #FBF7F4;
+    border-radius: 50%;
+    animation: bounce 2s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes bounce{
+    0%{
+        top: calc(50% + 45px);
+    }
+    25%{
+        top: calc(50% - 100px);
+    }
+    50%{
+        top: calc(50% - 55px);
+    }
+    75%{
+        top: calc(50% - 90px);
+    }
+    100%{
+        top: calc(50% + 45px);
+    }
+}
