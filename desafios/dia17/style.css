@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #591458;
+}
+
+.box{
+    min-width: 600px;
+}
+
+.box h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.box input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.box input[type='text']{
+    background-color: white;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 15px 0 15px; 
+}
+
+.box select{
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 18px;
+    padding: 13px 15.3px 11px;;
+    margin: -2px;
+    border-radius: 5px;
+    border-right: 15px solid white;
+}
+
+.box input[type="submit"]{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #610231;
+    color: white;
+    border-radius: 0 15px;
+}
+
+.box input[type="submit"]:hover{
+    background-color: #1B0A1F;
+}
