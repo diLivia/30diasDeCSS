@@ -22,6 +22,7 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
   - [Dia 14 - Bordas brilhantes](#id14)
   - [Dia 15 - Gota de água](#id15)
   - [Dia 16 - Bola pulando em linha girando](#id16)
+  - [Dia 17 - Group Imput Search Form](#id17)
   
   ## Dia 01 - Ícone de redes sociais em camadas <a name='id01'><a>
 ![Dia 01](https://media.discordapp.net/attachments/941722116074659863/949432513070256148/gif.gif?width=1024&height=338) <BR>
@@ -102,3 +103,8 @@ Criar novas habilidades com CSS, criando diversos mini-projetos que vão expandi
 ![Dia 16](https://media.discordapp.net/attachments/941722116074659863/953732436494286950/bouncing.gif?width=1024&height=190) <BR>
 [Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia16) <BR>
 [Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6909941190305976320-kPkm?utm_source=linkedin_share&utm_medium=member_desktop_web) 
+  
+  ## Dia 17 - Group Imput Search Form <a name='id17'><a>
+![Dia 17](https://media.discordapp.net/attachments/941722116074659863/954029594913177650/search-form.gif?width=1024&height=417) <BR>
+[Meu codigo](https://github.com/liviaonboard/30diasDeCSS/tree/main/desafios/dia17) <BR>
+[Post LinkedIn](https://www.linkedin.com/posts/l%C3%ADvia-dias-almeida711_30diasdecss-activity-6910236413485604864-YSGQ?utm_source=linkedin_share&utm_medium=member_desktop_web) 
